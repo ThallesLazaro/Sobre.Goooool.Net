@@ -63,6 +63,20 @@
 Vídeo principal: [assistir no YouTube](https://www.youtube.com/watch?v=ARnjAYPvQs4)  
 Short oficial: [assistir no YouTube](https://www.youtube.com/shorts/CBqdmdU4TOI)
 
----
+## 🚀 Publicação no GitHub Pages
+
+Os arquivos publicados ficam todos na raiz do repositório. As páginas são arquivos HTML normais, como `videos.html`, `faq.html` e `guia-tecnico-automatico.html`, enquanto os links públicos usam endereços limpos como `/videos`, `/faq` e `/guia-tecnico-automatico`, sem `.html` e sem barra final. `index.html` e `404.html` mantêm seus nomes usuais.
+
+O domínio personalizado é definido por `CNAME` como `sobre.goooool.net`.
+
 
 Criado por [Thalles Lázaro](https://thall.es/). Goooool.net é um projeto independente.
+
+## Versão documentada
+
+Este pacote acompanha o Goooool.net V544 (19/09/2026). O estado técnico atual está em [Estado atual](https://sobre.goooool.net/estado-atual).
+
+
+## Arquitetura V544
+
+O jogo publicado em `goooool.net` é estático. Editor, Estatísticas e Biblioteca ficam em `db.goooool.net`. O banco aprovado no Editor é exportado para publicação manual no cliente; o backend não é requisito para abrir uma carreira local.
