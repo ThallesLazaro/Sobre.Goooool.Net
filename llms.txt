@@ -1,3 +1,5 @@
+Estado atual: V563 · save schema 178 · banco R1116/modelo 7 · 174 ligas · 2.551 clubes · 118 países das ligas com pools próprios de nomes.
+V555: a aba Eventos separa Gols, Cartões, Substituições e Outros em blocos próprios; cores dos lances são semânticas e a rolagem compensa a barra fixa.
 # Livro do Goooool.net
 
 Versão documentada: V544
@@ -21,3 +23,5 @@ Arquitetura V544: goooool.net é o cliente estático; db.goooool.net concentra E
 - Sem jogo na semana atual, a Home pode processar múltiplas semanas em um único carregamento até o próximo compromisso ou decisão importante, mantendo a simulação de cada semana.
 - Em partidas apenas observadas, gols não usam áudio/vibração personalizados de time controlado.
 - Modais de campeão destacam taça e escudo separadamente; Editor mantém país visível em qualquer largura.
+
+- Ao Vivo V555: Eventos é a aba padrão para novos jogadores, resume lances importantes em tempo real, mostra autores dos gols junto ao placar e preserva a aba já salva de usuários existentes.
